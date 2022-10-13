@@ -102,6 +102,8 @@ const sunCloudMaterial = new THREE.MeshBasicMaterial({
 const earthMaterial = new THREE.MeshStandardMaterial({
     map: earthImg,
     normalMap: earthNormal,
+    specular: 0x333333,
+    shininess: 15,
 });
 const earthCloudMaterial = new THREE.MeshBasicMaterial({
     map: earthCloudImg,
